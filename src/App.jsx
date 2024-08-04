@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1>Vite + React</h1>
+    <div className='w-full h-screen font-["satoshi"]' >
+      <Navbar />
     </div>
   )
 }
