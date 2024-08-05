@@ -19,9 +19,7 @@ const Navbar = () => {
                                 <a key={index} href="#" className="font-regular text-sm flex items-center gap-1">
                                     {index === 2
                                         &&
-                                        <span
-                                            className="w-[5px] h-[5px] rounded-full inline-block bg-green-400"
-                                        />
+                                        <span className="w-[5px] h-[5px] rounded-full inline-block bg-green-400" />
                                     }
                                     {elem}
                                 </a>
