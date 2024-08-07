@@ -11,9 +11,9 @@ const Product = ({ data }) => {
                 <div className="details w-[30rem] flex flex-col items-start gap-7">
                     <p className="text-[19px]">{description}</p>
 
-                    <div className="flex gap-7">
-                        {liveWebsite && <Button title="Live Website" />}
-                        {caseStudy && <Button title="Case Study" />}
+                    <div className="w-full flex gap-7">
+                        {liveWebsite && <Button btnValue="Live Website" />}
+                        {caseStudy && <Button btnValue="Case Study" />}
                     </div>
                 </div>
             </div>
