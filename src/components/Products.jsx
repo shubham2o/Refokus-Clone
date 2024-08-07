@@ -221,7 +221,7 @@ const Products = () => {
     ];
 
     return (
-        <div className="w-full h-full my-36">
+        <div className="w-full mt-40 mb-44">
             {products.map((elem, index) => <Product key={index} data={elem} />)}
         </div>
     )
