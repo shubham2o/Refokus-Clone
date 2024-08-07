@@ -1,10 +1,9 @@
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
-const Button = () => {
+const Button = ({ title = "Start a Project" }) => {
     return (
         <div className="min-w-[9.5rem] rounded-full px-4 py-1.5 bg-white text-black text-[15.2px] cursor-pointer flex justify-between items-center">
-            <h1>Start a Project</h1>
-
+            <h1>{title}</h1>
             <MdKeyboardDoubleArrowRight />
         </div>
     )
