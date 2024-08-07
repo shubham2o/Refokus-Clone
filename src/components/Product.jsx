@@ -1,7 +1,7 @@
 import Button from "./Button";
 
 const Product = ({ data }) => {
-    const { id, title, description, liveWebsite, caseStudy, bgColor } = data;
+    const { title, description, liveWebsite, caseStudy, bgColor } = data;
 
     return (
         <div className="w-full h-72 border-b-2 border-zinc-400" style={{ backgroundColor: bgColor }}>
