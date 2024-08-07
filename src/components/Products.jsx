@@ -136,7 +136,7 @@ const Products = () => {
             description: "We crafted a website for Rainfall Ventures, developing prototypes and custom code that ultimately allows their team to update content regularly and with ease.",
             liveWebsite: true,
             caseStudy: true,
-            bgColor: "#508D4E",
+            bgColor: "#7C3AED",
         },
         {
             id: 18,
@@ -144,7 +144,7 @@ const Products = () => {
             description: "We crafted a timeless visual system for Jungle Ventures, covering all aspects of web design, and empowered their marketing team to scale organically using Webflow.",
             liveWebsite: true,
             caseStudy: true,
-            bgColor: "#7C3AED",
+            bgColor: "#508D4E",
         },
         {
             id: 19,
@@ -168,7 +168,7 @@ const Products = () => {
             description: "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
             liveWebsite: true,
             caseStudy: true,
-            bgColor: "#7E1FFF",
+            bgColor: "#9336B4",
         },
         {
             id: 22,
@@ -221,7 +221,7 @@ const Products = () => {
     ];
 
     return (
-        <div className="w-full mt-40 mb-44">
+        <div className="w-full my-40">
             {products.map((elem, index) => <Product key={index} data={elem} />)}
         </div>
     )
