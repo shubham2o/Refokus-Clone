@@ -200,7 +200,7 @@ const Products = () => {
             description: "We designed and developed a magical gaming experience made in Webflow to promote the translation service and their sponsorship of the 2022 Webflow Conference.",
             liveWebsite: true,
             caseStudy: true,
-            bgColor: "#030A8E",
+            bgColor: "#4F4557",
         },
         {
             id: 26,
@@ -216,7 +216,7 @@ const Products = () => {
             description: "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
             liveWebsite: true,
             caseStudy: false,
-            bgColor: "#4F4557",
+            bgColor: "#0B60B0",
         },
     ];
 
