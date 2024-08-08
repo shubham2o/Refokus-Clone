@@ -168,7 +168,7 @@ const Products = () => {
             description: "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
             liveWebsite: true,
             caseStudy: true,
-            bgColor: "#9336B4",
+            bgColor: "#0B60B0",
         },
         {
             id: 22,
@@ -216,7 +216,7 @@ const Products = () => {
             description: "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
             liveWebsite: true,
             caseStudy: false,
-            bgColor: "#0B60B0",
+            bgColor: "#9336B4",
         },
     ];
 

@@ -2,10 +2,10 @@ import Card from "./Card";
 
 const Cards = () => {
     return (
-        <div className="cards w-full h-[466px] my-40">
+        <div className="cards w-full h-[466px] my-36">
             <div className="max-w-screen-xl h-full mx-auto flex gap-1">
-                <Card />
-                <Card />
+                <Card width={"basis-1/3"} squareCard="true" />
+                <Card width={"basis-2/3"} />
             </div>
         </div>
     )
