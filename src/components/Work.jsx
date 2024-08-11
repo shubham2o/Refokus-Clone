@@ -48,11 +48,7 @@ const Work = () => {
 
         const showImages = (arr) => {
             setImages(prev => prev.map((item, index) =>
-                arr.indexOf(index) === -1
-                    ?
-                    { ...item, isActive: false }
-                    :
-                    { ...item, isActive: true }
+                arr.indexOf(index) === -1 ? { ...item, isActive: false } : { ...item, isActive: true }
             ))
         }
 

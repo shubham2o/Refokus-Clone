@@ -1,21 +1,25 @@
-const Marquee = ({ imagesURL }) => {
-    return (
-        <div className="w-full py-7 flex gap-16 whitespace-nowrap overflow-hidden">
-            {imagesURL.map((url, index) =>
-                <img
-                    key={index}
-                    src={url}
-                    className="w-28 h-14 object-contain"
-                />
-            )}
+import { motion } from "framer-motion";
 
-            {imagesURL.map((url, index) =>
-                <img
-                    key={index}
-                    src={url}
-                    className="w-28 h-14 object-contain"
-                />
-            )}
+const Marquee = ({ imagesURL, direction }) => {
+    return (
+        <div className="w-full flex overflow-hidden">
+            <motion.div
+                initial={{ x: direction === "left" ? "0" : "-100%" }}
+                animate={{ x: direction === "left" ? "-100%" : "0" }}
+                transition={{ ease: "linear", duration: 50, delay: 1.5, repeat: Infinity }}
+                className="pr-24 py-7 flex flex-shrink-0 gap-24"
+            >
+                {imagesURL.map((url, index) => <img key={index} src={url} className="w-36 h-20 object-contain" />)}
+            </motion.div>
+
+            <motion.div
+                initial={{ x: direction === "left" ? "0" : "-100%" }}
+                animate={{ x: direction === "left" ? "-100%" : "0" }}
+                transition={{ ease: "linear", duration: 50, delay: 1.5, repeat: Infinity }}
+                className="pr-24 py-7 flex flex-shrink-0 gap-24"
+            >
+                {imagesURL.map((url, index) => <img key={index} src={url} className="w-36 h-20 object-contain" />)}
+            </motion.div>
         </div>
     )
 }
